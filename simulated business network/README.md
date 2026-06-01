@@ -32,6 +32,20 @@ A topology screenshot is included below.
 ### File Server Network
 - Network: 192.168.30.0/24
 - Gateway: 192.168.30.1
+## Screenshots
+
+
+### Network Topology
+![Topology](Topology.jpeg)
+
+### Router Configuration
+![Router Configuration](Router%20CLI.jpeg)
+
+### Connectivity Test
+![Connectivity Test](ping%20test.jpeg)
+
+### IP Configuration
+![IP Configuration](IP%20configuration.jpeg)
 
 ## Router Interfaces
 
