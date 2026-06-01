@@ -2,8 +2,8 @@
 # Simulated Business Network
 
 ## Objective
-Build a small business network using Cisco Packet Tracer and verify connectivity between departments.
 
+Design and configure a simulated small business network using Cisco Packet Tracer. Configure router interfaces, assign static IP addresses to end devices, implement separate subnets for different departments and verify end-to-end connectivity through successful ping testing.
 ## Topology
 
 ## Network Diagram
@@ -57,19 +57,24 @@ A topology screenshot is included below.
 
 ## Testing
 
-Successful ping tests:
+Successful Connectivity Tests
 
-- Sales PC → HR PC
-- Sales PC → File Server
-- HR PC → File Server
+- Sales PC (192.168.10.10) → HR PC (192.168.20.10)
+- Sales PC (192.168.10.10) → File Server (192.168.30.10)
+- HR PC (192.168.20.10) → File Server (192.168.30.10)
+
+Result: Inter-VLAN/inter-subnet communication was successfully verified through the router.
 
 All devices communicated successfully across different subnets.
 
+
 ## Skills Demonstrated
 
-- Router configuration
-- IP addressing
-- Network segmentation
-- Default gateway configuration
-- Connectivity testing
+- Cisco Packet Tracer
+- Router Configuration
+- Static IP Addressing
+- Subnetting Fundamentals
+- Default Gateway Configuration
+- Network Troubleshooting
+- Connectivity Verification (Ping)
 - Cisco IOS CLI
