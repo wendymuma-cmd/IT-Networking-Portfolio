@@ -1,5 +1,5 @@
 
-# Simulated small Business Network
+# Simulated Small Business Network
 
 ## Objective
 
