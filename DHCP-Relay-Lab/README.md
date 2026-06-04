@@ -113,5 +113,5 @@ Results showed successful communication across all subnets with 0% packet loss.
 - Cisco Packet Tracer
 
 ## Key Learning Outcome
+This lab demonstrates how the `ip helper-address` command allows a router to forward DHCP broadcast requests to a DHCP server located on a different subnet. By implementing DHCP Relay, multiple networks can share a centralized DHCP service while maintaining successful communication between subnets.
 
-This lab demonstrates how DHCP Relay enables centralized DHCP services across multiple subnets by forwarding DHCP requests to a DHCP server located on a different network.
