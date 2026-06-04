@@ -50,6 +50,8 @@ This allowed clients in different networks to obtain IP addresses from a central
 
 ## DHCP Server Configuration
 
+- IP Address: 192.168.30.10
+- Network: 192.168.30.0/24
 ### Sales Pool
 
 - Network: 192.168.10.0/24
