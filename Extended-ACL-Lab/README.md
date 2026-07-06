@@ -8,6 +8,11 @@ In this lab, I configured an Extended Access Control List (ACL) to block one spe
 
 This helped me understand that ACLs are not simply about blocking traffic—they are about enforcing security policies with precision.
 
+## Packet Tracer Lab
+
+📥 **Download the Packet Tracer Lab:** [Extended-ACL-Lab.pkt](Extended-ACL-Lab.pkt)
+
+
 ## Objectives
 
 - Configure an Extended ACL
@@ -25,8 +30,32 @@ This helped me understand that ACLs are not simply about blocking traffic—they
 - Extended ACLs
 
 ## Network Topology
-<
+< ![Topology](Topology.png)
 
+## VLAN Verification
+
+![VLAN](Show-VLAN-Brief.png)
+
+## Trunking
+
+![Trunking](Show-interfaces-trunk.png)
+
+## Router Interface Verification
+
+![Interfaces](Show-IP-Interface-Brief.png)
+
+## ACL Configuration
+
+![ACL](Show-Access-Lists.png)
+
+## Connectivity Test
+![Failed ping](Failed-ping-sales-PC1-HR-PC.png) 
+
+
+## Successful ping
+![Successful ping](Sales-PC2-HR-PC.png)
+
+![Successful ping](Sales-PC1-Gateway.png)
 
 
 ## IP Addressing
