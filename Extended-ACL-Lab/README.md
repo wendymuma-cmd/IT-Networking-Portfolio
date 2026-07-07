@@ -67,33 +67,33 @@ interface GigabitEthernet0/0.10
 
 ### VLAN Configuration
 
-![VLAN Brief](Show-VLAN-Brief.png)
+![VLAN Brief](show%20VLAN%20brief.png)
 
 ### Trunk Verification
 
-![Trunk](Show-Interfaces-Trunk.png)
+![Trunk](show%20interfaces%20trunk.png))
 
 ### Router Interface Verification
 
-![Router Interfaces](Show-IP-Interface-Brief.png)
+![Router Interfaces](show%20IP%20interface%20brief.png)
 
 ### ACL Verification
 
-![Access Lists](Show-Access-Lists.png)
+![Access Lists]((show%20access-lists.png))
 
 ### Connectivity Tests
 
 ❌ **Sales PC1 → HR PC** (Blocked)
 
-![Failed Ping](SalesPC1-to-HR-Failed.png)
+![Sales PC1 to HR Blocked](Failed%20ping%20(Sales%20PC1-HR%20PC).png)
 
 ✅ **Sales PC2 → HR PC** (Allowed)
 
-![Successful Ping](SalesPC2-to-HR-Success.png)
+![Sales PC2 to HR Success](successful%20ping%20(Sales%20PC2-HR%20PC).png)
 
 ✅ **Sales PC1 → Default Gateway** (Allowed)
 
-![Gateway Ping](SalesPC1-Gateway-Ping.png)
+![Gateway Ping]![Sales PC1 Gateway Success](successful%20ping%20(Sales%20PC1-Gateway).png)
 
 ---
 
