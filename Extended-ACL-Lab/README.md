@@ -31,6 +31,37 @@ The objective was to block a specific Sales PC from accessing the HR PC while al
 ## Network Topology
 
 ![Topology](Topology.png)
+## Verification
+
+### VLAN Configuration
+
+![VLAN Brief](Show-VLAN-Brief.png)
+
+### Trunk Verification
+
+![Trunk](Show-Interface-Trunk.png)
+
+### Router Interface Verification
+
+![Router Interfaces](Show-Interface-Brief.png)
+
+### ACL Verification
+
+![Access Lists](Show-Access-Lists.png)
+
+### Connectivity Tests
+
+❌ **Sales PC1 → HR PC (Blocked)**
+
+![Failed Ping](Failed-Ping-SalesPC1-HR-PC.png)
+
+✅ **Sales PC2 → HR PC**
+
+![Successful Ping](Successful-Ping-SalesPC2-HR-PC.png)
+
+✅ **Sales PC1 → Gateway**
+
+![Gateway Ping](Successful-Ping-SalesPC1-Gateway.png)
 
 ---
 
@@ -63,39 +94,7 @@ interface GigabitEthernet0/0.10
 
 ---
 
-## Verification
 
-### VLAN Configuration
-
-![VLAN Brief](show%20VLAN%20brief.png)
-
-### Trunk Verification
-
-![Trunk](show%20interfaces%20trunk.png))
-
-### Router Interface Verification
-
-![Router Interfaces](show%20IP%20interface%20brief.png)
-
-### ACL Verification
-
-![Access Lists]((show%20access-lists.png))
-
-### Connectivity Tests
-
-❌ **Sales PC1 → HR PC** (Blocked)
-
-![Sales PC1 to HR Blocked](Failed%20ping%20(Sales%20PC1-HR%20PC).png)
-
-✅ **Sales PC2 → HR PC** (Allowed)
-
-![Sales PC2 to HR Success](successful%20ping%20(Sales%20PC2-HR%20PC).png)
-
-✅ **Sales PC1 → Default Gateway** (Allowed)
-
-![Gateway Ping]![Sales PC1 Gateway Success](successful%20ping%20(Sales%20PC1-Gateway).png)
-
----
 
 ## Key Takeaways
 
