@@ -34,28 +34,28 @@ This helped me understand that ACLs are not simply about blocking traffic—they
 
 ## VLAN Verification
 
-![VLAN](Show-VLAN-Brief.png)
+ ![VLAN brief](show VLAN brief.png)
 
 ## Trunking
 
-![Trunking](Show-interfaces-trunk.png)
+![Trunking](show interfaces trunk.png)
 
 ## Router Interface Verification
 
-![Interfaces](Show-IP-Interface-Brief.png)
+![Interfaces](show IP interface brief.png)
 
 ## ACL Configuration
 
-![ACL](Show-Access-Lists.png)
+![ACL](show access-lists.png)
 
 ## Connectivity Test
-![Failed ping](Failed-ping-sales-PC1-HR-PC.png) 
+![Failed ping](Failed ping(Sales PC1-HR PC).png) 
 
 
 ## Successful ping
-![Successful ping](Sales-PC2-HR-PC.png)
+![Successful ping](Sales PC2 HR PC.png)
 
-![Successful ping](Sales-PC1-Gateway.png)
+![Successful ping](Sales PC1 Gateway.png)
 
 
 ## IP Addressing
